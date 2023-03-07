@@ -1,0 +1,456 @@
+<mjml>
+  <mj-head>
+    <mj-raw>
+        <meta name="color-scheme" content="light dark">
+        <meta name="supported-color-schemes" content="light dark">
+    </mj-raw>
+    <mj-title>Test-Softum</mj-title>
+
+    <mj-preview>Test-Softum</mj-preview>
+    <mj-style>
+
+
+      h2 {
+        font-family: "Arial";
+        font-weight: 700;
+        font-size: 20px;
+        text-align: center;
+        line-height: 1.2;
+
+        align: center;
+        margin: 0;
+      }
+
+      .game-block {
+
+        background: url('https://bewebdeveloper.site/my-block/images/game-bg.png') no-repeat top/cover;
+
+      }
+
+      .col {
+
+        width: 198px !important;
+      }
+
+      .first-game,
+      .second-game,
+      .thrird-game {
+
+        max-width: 188px;
+
+        height: 112px;
+
+        vertical-align: bottom;
+
+        background: url('https://bewebdeveloper.site/my-block/images/Thumb.png') no-repeat center/cover;
+        border-radius: 10px;
+      }
+
+      .second-game {
+        background: url('https://bewebdeveloper.site/my-block/images/Thumb2.png') no-repeat center/cover;
+      }
+
+      .thrird-game {
+        background: url('https://bewebdeveloper.site/my-block/images/Thumb3.png') no-repeat center/cover;
+      }
+
+
+
+      .game-text {
+
+        width: 100%;
+
+        color: #06C270;
+        text-align: center;
+        vertical-align: bottom;
+        padding: 5px 0;
+
+        background: rgba(0, 0, 0, .8);
+        border-radius: 0 0 10px 10px;
+      }
+
+      .game-title {
+        padding: 5px 5px 5px 0 !important;
+        vertical-align: start;
+      }
+
+
+
+      .game-title span {
+        display: inline-block;
+        margin-top: 2px !important;
+        margin-left: 5px;
+        color: #fff;
+        vertical-align: top !important;
+      }
+
+      .btn {
+        font-family: "Arial";
+        font-size: 16px;
+        border-radius: 8px;
+      }
+
+      .btn-file {
+        padding: 10px 41px;
+
+        font-family: "Arial";
+        font-size: 14px;
+        font-weight: 700;
+        text-decoration: none;
+        color: #fff;
+
+        background-image: linear-gradient(to right bottom, #ff3b3b, #fa005c, #e50081, #b900a9, #6600cc);
+        border-radius: 6px;
+      }
+
+      .btn-file:hover {
+        color: #fff;
+      }
+
+      .btn-file.blue {
+        padding: 10px 21px;
+        background-image: linear-gradient(to right top, #3e7bfa, #4267f2, #4c51e8, #5936dc, #6600cc);
+      }
+
+      .btn-file.btn-call {
+        padding: 10px 21px;
+      }
+
+      .btm-block {
+        align: right;
+        padding: 14px 16px 55px 16px !important;
+      }
+
+      .btn-block img {
+        vertical-align: middle !important;
+
+      }
+
+
+
+
+      .contact {
+        background: url('https://bewebdeveloper.site/my-block/images/bg.jpg') no-repeat top/cover;
+      }
+
+      .contact-firsth-section {
+        width: 100%;
+        max-width: 508px !important;
+
+        background-image: linear-gradient(to right bottom, #ff3b3b, #fa005c, #e50081, #b900a9, #6600cc);
+        border-radius: 10px;
+
+        box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, .32);
+      }
+
+      .contact-firsth-section.contact-second-section {
+        background-image: linear-gradient(to right top, #3e7bfa, #4267f2, #4c51e8, #5936dc, #6600cc);
+      }
+
+
+      .column-left {
+
+        max-width: 350px !important;
+
+        padding: 0 25px 0 0px
+      }
+
+      .column-rigth {
+
+        max-width: 228px;
+        background-color: #6c6f73;
+        border-radius: 0 10px 10px 0;
+        border: 1px solid #6600CC;
+        border-left: none;
+
+      }
+
+      .contact-insrall-text {
+        display: block;
+        font-family: "Arial";
+        color: #000;
+        padding: 10px !important;
+
+        line-height: 1.5;
+      }
+
+      .block-1 a {
+        color: #fff;
+        text-decoration: underline;
+        cursor: pointer;
+      }
+
+      .block-2 a {
+        color: #fff;
+      }
+
+      .icon {
+        margin-top: -10px;
+        margin-right: -16px;
+      }
+
+      @media (max-width:535px) {
+        .contact-firsth-section {
+          width: 100%;
+          max-width: 350px !important;
+
+          box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, .32);
+        }
+
+
+
+        .column-left {
+          width: 100% !important;
+          max-width: 350px !important;
+
+        }
+
+        .column-rigth {
+          width: 100% !important;
+          max-width: 350px !important;
+          border-radius: 0 10px 10px 10px;
+          border: 1px solid #6600CC;
+        }
+
+        .btn-block {
+          padding: 0px 0 21px 0 !important;
+        }
+
+        .btn-block-call {
+          padding: 10px 15px 10px 30px !important;
+
+        }
+
+        .btn-file {
+          padding: 10px 21px;
+        }
+
+      }
+
+      @media (max-width:480px) {
+        .btn-file {
+          padding-right: 35px !important;
+
+        }
+
+        .btn-block.btn-block-call {
+          padding-left: 35px !important;
+        }
+
+      }
+
+      @media (max-width:375px) {
+        .btn-block.btn-block-call {
+            padding-left: 55px !important;
+        }
+        .question-title{
+            padding: 0px 0px 0px 45px!important;
+        }
+
+        .mj-divider {
+            padding: 10px 10px!important;
+        }
+      }
+
+      @media (max-width:320px) {
+        .btn-block.btn-block-call {
+            padding-left: 55px !important;
+        }
+
+        .question-title{
+            padding: 0px 0px 0px 50px!important;
+        }
+
+        .mj-divider {
+            padding: 10px 0px!important;
+        }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body width="600px" background-color="#E5EAFF">
+
+    <mj-section padding="0 16px">
+      <mj-column padding="20px 0 0 0">
+        <mj-image width="128px" src="https://bewebdeveloper.site/my-block/images/logo.png" align="center"></mj-image>
+      </mj-column>
+    </mj-section>
+    <!--logo-->
+    <mj-section padding="0 16px">
+      <mj-column>
+        <mj-text font-size="20px" align="center" padding="0">
+          <h2 style="font-size: inherit;">Neque porro quisquam est qui dolorem ipsum</h2>
+        </mj-text>
+
+        <mj-text font-family="Arial" font-size="16px" align="center" line-height="20px" padding="0">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!--text-->
+    <mj-wrapper padding="0 16px">
+      <mj-section>
+        <mj-column padding="0 0 15px 0">
+          <mj-image width="184px" height="288px" padding="0 4px 0 0" border-radius="20px" src="https://bewebdeveloper.site/my-block/images/apple.jpg" />
+        </mj-column>
+        <mj-column padding="0 0 15px 0">
+          <mj-image width="184px" height="288px" padding="0 4px 0 4px" border-radius="20px" src="https://bewebdeveloper.site/my-block/images/redmi.jpg" />
+        </mj-column>
+        <mj-column padding="0 0 25px 0">
+          <mj-image width="184px" height="288px" padding="0 0 0 4px" border-radius="20px" src="https://bewebdeveloper.site/my-block/images/lg.jpg" />
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+    <!--cards-->
+
+    <mj-wrapper css-class="game-block" padding="0 16px">
+      <mj-section>
+        <mj-column>
+          <mj-text color="#fff">
+            <h2>
+              Neque porro quisquam est qui dolorem ipsumquia dolor sit amet
+            </h2>
+          </mj-text>
+          <mj-text font-family="Arial" font-size="16px" align="center" line-height="20px" padding="0 16px" color="#fff">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!--games-text-->
+      <mj-section padding="0 0 20px 0">
+        <mj-column css-class="col" padding="10px">
+          <mj-text css-class="first-game" padding="0">
+            <div class="game-text">
+              €458,658.12
+            </div>
+          </mj-text>
+          <mj-text css-class="game-title">
+            <image alt="icon" width="16px" src="https://bewebdeveloper.site/my-block/images/Microgaming.png" />
+            <span>Game Title</span>
+          </mj-text>
+
+        </mj-column>
+        <mj-column css-class="col" padding="10px">
+          <mj-text css-class="second-game" padding="0">
+            <div class="game-text">
+              €458,658.12
+            </div>
+          </mj-text>
+
+          <mj-text css-class="game-title">
+            <image alt="icon" width="16px" src="https://bewebdeveloper.site/my-block/images/Microgaming.png" />
+            <span>Game Title</span>
+          </mj-text>
+        </mj-column>
+        <mj-column css-class="col" padding="10px">
+          <mj-text css-class="thrird-game" padding="0">
+            <div class="game-text">
+              €458,658.12
+            </div>
+          </mj-text>
+          <mj-text css-class="game-title">
+            <image alt="icon" width="16px" src="https://bewebdeveloper.site/my-block/images/Microgaming.png" />
+            <span>Game Title</span>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!--games-type-->
+      <mj-section padding="0 0 20px 0">
+        <mj-column>
+          <mj-button css-class="btn" href="gooogle.com" width="176px" border-radius="8px" padding="0" background-color="#DA2E71" color="white">
+            Играть
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!--btn-->
+    </mj-wrapper>
+    <!--games-->
+    <mj-wrapper css-class="contact" padding="20px 10px">
+      <mj-section css-class="contact-firsth-section" padding="0">
+        <mj-column css-class="column-left" vertical-align="middle">
+          <mj-text css-class="block-1" padding="16px 16px 0 16px" align="center" font-size="12px" font-weight="700" line-height="16px" color="#fff">
+            <img align="left" width="40px" src="https://bewebdeveloper.site/my-block/images/phone.png" />
+            <span> Устанавливайте приложение Supergra и получайте бонус </span>
+
+          </mj-text>
+          <mj-text css-class="block-2" padding="0 16px 16px 16px" align="left" font-size="12px" color="#fff" font-weight="400" line-height="16px" padding="0 16px">
+            <span margin="0">Для установки приложения переходите <a href="https://www.facebook.com/">по ссылке</a> или нажмите кнопку
+              “Скачать” </span>
+          </mj-text>
+
+        </mj-column>
+        <mj-column css-class="column-rigth">
+          <mj-text padding="0" align="right">
+            <img class="icon" src="https://bewebdeveloper.site/my-block/images/Component.png" />
+          </mj-text>
+          <mj-text css-class="btn-block" align="center" padding="14px 16px 55px 16px">
+            <a href class="btn-file"> <img src="https://bewebdeveloper.site/my-block/images/download.png" /> <span>Скачать </span> </a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!--contact-firsth-section-->
+      <mj-section padding="5px"></mj-section>
+      <mj-section css-class="contact-firsth-section contact-second-section" padding="0">
+        <mj-column css-class="column-left" vertical-align="middle">
+          <mj-text css-class="block-1" padding="16px 1px 0 16px" align="left" font-size="12px" font-weight="700" line-height="16px" color="#fff">
+            <img align="left" width="40px" src="https://bewebdeveloper.site/my-block/images/shutterstock.png" />
+            <span>
+              Будь всегда с нами на связи!Подключай
+              <a>Telegram Bot </a>
+            </span>
+
+          </mj-text>
+
+        </mj-column>
+        <mj-column css-class="column-rigth">
+          <mj-text padding="0" align="right">
+            <img class="icon" src="https://bewebdeveloper.site/my-block/images/Component.png" />
+          </mj-text>
+          <mj-text css-class="btn-block blue" align="center" padding="0px 0px 15px 0px">
+            <a href class="btn-file blue"> <img src="https://bewebdeveloper.site/my-block/images/tg.png" /> <span>Подключиться </span> </a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!--contact-second-section-->
+      <mj-section padding="10px 0 0 0">
+        <mj-column>
+          <mj-divider css-class="mj-divider" padding="10px 35px" border-width="1px" border-style="dashed" border-color="rgba(255, 255, 255, 0.6)" />
+        </mj-column>
+      </mj-section>
+      <!--divider-->
+      <mj-section padding="0" css-class="call-back">
+        <mj-column>
+          <mj-text padding="0 0 0 34px">
+            <h4 class="question-title" style="font-size:14px; color: #fff; padding: 0; margin: 5px 0;">Остались вопросы? </h4>
+            <p style="color: #fff; font-size:12px; margin: 5px 0;">Наши специалисты помогут разобраться</p>
+          </mj-text>
+        </mj-column>
+
+        <mj-column>
+          <mj-text padding="10px 0 0 70px" css-class="btn-block btn-block-call">
+            <a href class="btn-file btn-call"> <img src="https://bewebdeveloper.site/my-block/images/phone-call-back.png" /> <span>Заказать звонок</span> </a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!--call-back-->
+      <mj-section padding="10px 0 0 0">
+        <mj-column>
+          <mj-divider css-class="mj-divider" padding="10px 35px" border-width="1px" border-style="dashed" border-color="rgba(255, 255, 255, 0.6)" />
+        </mj-column>
+      </mj-section>
+      <!--divider-->
+      <mj-section padding="10px 0 0 0">
+        <mj-column>
+          <mj-text align="center" padding="0 30px">
+            <p style="font-size: 10px; color: #fff; line-height: 20px; margin: 0; ">Вы получили это письмо, потому что зарегистрированы в Supergra.com и подтвердили свое согласие с Правилами и Условиями. Для того чтобы отписаться от рассылки, нажмите на <a href style="color:#DA2E71; corsor:pointer; text-decoration: none; ">ссылку</a> </p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!--footer-->
+    </mj-wrapper>
+    <!--contact-2-->
+  </mj-body>
+</mjml>
